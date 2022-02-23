@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login and Registration Form</title>
+    <link rel="stylesheet" href="css\LogReg.css">
+  </head>
+  <body>
+    <div class="hero">
+      <div class="form-box" >
+          <div class="button-box">
+            <div id="btn">
+            </div>
+              <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+              <button type="button" class="toggle-btn" onclick="register()">Register</button>
+          </div>
+          <div class="social-icons">
+              <a href="https://www.facebook.com" target="_blank">
+                  <img src="images/fb.png">
+              </a>
+              <a href="https://www.kribhco.net/" target="_blank">
+                  <img src="images/gp.png">
+              </a>
+
+          </div>
+<form id="login" class="input-group" method="post" action="E:\Study\intership\kribhco\day 2\index.html">
+  <input type="text" class="input-feild" placeholder="Personal Number" required>
+  <input type="password" class="input-feild" placeholder="Password" required>
+  <input type="checkbox" class="check-box"  required>
+  <span >Remember Password</span>
+  <button type="submit" class="submit-btn">Log In</button>
+</form>
+<form id="register" class="input-group" method="post">
+  <input type="text" class="input-feild" placeholder="Name" required>
+  <input type="text" class="input-feild" placeholder="Contact Number" required>
+  <input type="text" class="input-feild" placeholder="Personal Number" required>
+  <input type="password" class="input-feild" placeholder="Password" required>
+  <input type="password" class="input-feild" placeholder="Comfirm Password" required>
+
+  <input type="checkbox" class="check-box" required >
+  <span>I agree to the terms & conditions</span>
+  <button type="submit" class="submit-btn">Register</button>
+</form>
+      </div>
+  </div>
+<script>
+  var x = document.getElementById('login') ;
+  var y = document.getElementById('register') ;
+  var z = document.getElementById('btn') ;
+
+  function register() {
+    x.style.left = "-400px";
+    y.style.left = "50px";
+    z.style.left = "110px";
+  }
+  function login() {
+    x.style.left = "50px";
+    y.style.left = "450px";
+    z.style.left = "0px";
+  }
+
+</script>
+  </body>
+</html>

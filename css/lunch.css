@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+
+@font-face {
+    font-family: "Booter - Zero Zero";
+    src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
+         url("Fonts/Booter - Zero Zero.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3)
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3)
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url("kribhco-header.jpg");
+    background-blend-mode: multiply;
+    width: auto;
+    height: 250px;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.section-header {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.shop-item {
+    margin: 30px;
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.shop-item-image {
+    height: 250px;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+
+
+.mon-tue-wed{
+  display: flex;
+  justify-content: center;
+}
+
+
+.box-mon{
+  border: none;
+  width: 400px;
+  position: relative;
+  overflow: hidden;
+  margin: 10px auto;
+
+}
+.box-mon img{
+  width: 100%;
+  height: 100%;
+}
+
+.content-mon{
+  background: rgba(0,0,0,0.8);
+  position: absolute;
+  top: -100%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.content-mon h3, li{
+  color: #fff;
+}
+
+.box-mon:hover .content-mon {
+  top: 0;
+    box-shadow: 0 0 20px 12px rgba(0,0,0,0.2);
+  transition: all 0.5s;
+}
+
+
+
+
+
+
+.box-tue{
+  border: none;
+  width: 400px;
+  position: relative;
+  overflow: hidden;
+  margin: 10px auto;
+
+}
+.box-tue img{
+  width: 100%;
+  height: 100%;
+}
+
+.content-tue{
+  color: #fff;
+  background: rgba(0,0,0,0.8);
+  position: absolute;
+  top: -100%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.content-tue h3, li{
+  color: #fff;
+}
+.box-tue:hover .content-tue {
+  top: 0;
+    box-shadow: 0 0 20px 12px rgba(0,0,0,0.2);
+  transition: all 0.5s;
+}
+
+
+
+.box-wed{
+  border: none;
+  width: 400px;
+  position: relative;
+  overflow: hidden;
+  margin: 10px auto;
+
+}
+.box-wed img{
+  width: 100%;
+  height: 450px;
+}
+
+.content-wed{
+  color: #fff;
+  background: rgba(0,0,0,0.8);
+  position: absolute;
+  top: -100%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.content-wed h3, li{
+  color: #fff;
+}
+.box-wed:hover .content-wed {
+  top: 0;
+    box-shadow: 0 0 20px 12px rgba(0,0,0,0.2);
+  transition: all 0.5s;
+}
+
+
+
+
+
+.thu-fri-sat{
+  display: flex;
+  justify-content: center;
+}
+
+
+.box-thu{
+  border: none;
+  width: 400px;
+  position: relative;
+  overflow: hidden;
+  margin: 10px auto;
+
+}
+.box-thu img{
+  width: 100%;
+  height: 100%;
+}
+
+.content-thu{
+  color: #fff;
+  background: rgba(0,0,0,0.8);
+  position: absolute;
+  top: -100%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.content-thu h3, li{
+  color: #fff;
+}
+.box-thu:hover .content-thu {
+  top: 0;
+    box-shadow: 0 0 20px 12px rgba(0,0,0,0.2);
+  transition: all 0.5s;
+}
+
+
+
+
+
+
+.box-fri{
+  border: none;
+  width: 400px;
+  position: relative;
+  overflow: hidden;
+  margin: 10px auto;
+
+}
+.box-fri img{
+  width: 100%;
+  height: 100%;
+}
+
+.content-fri{
+  color: #fff;
+  background: rgba(0,0,0,0.8);
+  position: absolute;
+  top: -100%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.content-fri h3, li{
+  color: #fff;
+}
+.box-fri:hover .content-fri {
+  top: 0;
+    box-shadow: 0 0 20px 12px rgba(0,0,0,0.2);
+  transition: all 0.5s;
+}
+
+
+
+
+
+.box-sat{
+  border: none;
+  width: 400px;
+  position: relative;
+  overflow: hidden;
+  margin: 10px auto;
+
+}
+.box-sat img{
+  width: 100%;
+  height: 100%;
+}
+
+.content-sat{
+  color: #fff;
+  background: rgba(0,0,0,0.8);
+  position: absolute;
+  top: -100%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.content-sat h3, li{
+  color: #fff;
+}
+.box-sat:hover .content-sat {
+  top: 0;
+    box-shadow: 0 0 20px 12px rgba(0,0,0,0.2);
+  transition: all 0.5s;
+}
+
+.fri-sat{
+  display: flex;
+  justify-content: center;
+}
+
+.box-sun{
+  border: none;
+  width: 400px;
+  position: relative;
+  overflow: hidden;
+  margin: 10px auto;
+
+}
+.box-sun img{
+  width: 100%;
+  height: 100%;
+}
+
+.content-sun{
+  color: #fff;
+  background: rgba(0,0,0,0.8);
+  position: absolute;
+  top: -100%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.content-sun h3, li{
+  color: #fff;
+}
+.box-sun:hover .content-sun {
+  top: 0;
+    box-shadow: 0 0 20px 12px rgba(0,0,0,0.2);
+  transition: all 0.5s;
+}
+
+
+.main-footer {
+    background-color: #56CCF2;
+    color: white;
+    padding: .25em 0;
+
+}
+
+.band-name {
+    color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Booter - Zero Zero";
+    font-weight: normal;
+}
+
+
+.band-name-large {
+    font-size: 8em;
+}
+
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}

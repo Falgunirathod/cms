@@ -1,0 +1,257 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+		scroll-behavior: smooth;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3)
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3)
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, .6);
+    background-blend-mode: multiply;
+    width: auto;
+    height: 250px;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+h1{
+  font-size: 50px;
+ font-weight: 600;
+ text-align: center;
+ background-color: #16a085;
+ color: #fff;
+ padding: 10px 0px;
+}
+
+.container h1{
+  font-size: 30px;
+ font-weight: 200;
+ text-align: center;
+ background-color: #16a085;
+ color: #fff;
+ padding: 10px 0px;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+
+}
+.section-header {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+h2{
+	text-align: center;
+	margin: 40px auto;
+	font-size: 50px;
+}
+.container-fluid{
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1000px;
+}
+.container{
+	max-width: 500px;
+	width: 50%;
+	float: left;
+	margin: 0 auto;
+	border: none;
+	padding: 20px;
+}
+fieldset{
+	padding: 20px;
+	margin: 20px 0;
+	border: 1px solid #cccccc;
+	font-size: 16px;
+
+}
+legend{
+	margin-left: 20px;
+	font-size: 20px;
+}
+input{
+	width: auto;
+	margin: 10px;
+	padding: 5px;
+	font-size: 18px;
+
+}
+h3{
+	margin: 5px 0;
+}
+table{
+	width: 100%;
+	margin-top: 20px;
+	border: none;
+	text-align: center;
+}
+table td,table th{
+	padding: 5px;
+	margin: 0;
+	border: 1px solid #000000;
+}
+table tr td:last-child{
+	text-align: right;
+}
+
+ul li{
+	padding: 5px;
+	margin: 10px 0;
+}
+
+
+.header{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("snack-bg.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+nav{
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img{
+  width: 150px;
+}
+
+.nav-links{
+  flex: 1;
+  text-align: right;
+}
+
+
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.nav-links ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+
+}
+
+.nav-links ul li::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #8D2F11;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+  width: 100%;
+}
+
+.menu-table table{
+  left: 50%;
+  right: 50%;
+  top: 50%;
+  border-collapse: collapse;
+  width: 100%;
+  height:200px;
+  border: 1px solid #bdc3c7;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.2), -1px -1px 8px rgba(0,0,0,0.2);
+  box-shadow: 0 0 20px 9px rgba(0,0,0,0.8);
+}
+
+.menu-table ul li{
+  color: black;
+}
+
+.menu-table tr{
+  transition: all 0.2s ease-in;
+  cursor:pointer;
+
+}
+
+.menu-table th{
+  color: black;
+  padding:12px ;
+  text-align: left;
+  border-bottom:1px solid #ddd;
+  background-color: #16a085;
+}
+.menu-table  td{
+  color: black;
+  background-color: #fff;
+  padding:12px ;
+  text-align: left;
+  border-bottom:1px solid #ddd;
+}
+
+.menu-table tr:hover{
+  background-color: #f5f5f5;
+  transform: scale(1.02);
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.2), -1px -1px 8px rgba(0,0,0,0.2);
+}
+
+.btn{
+  border: 1px solid;
+  display: block;
+  font-size: 16px;
+  padding: 13px 30px;
+  border-radius:30px;
+  background: #16a085;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+.btn:hover{
+  color: black;
+  background: rgb(255,175,227);
+  border-color: black ;
+}
